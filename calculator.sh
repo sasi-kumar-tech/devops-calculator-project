@@ -15,7 +15,7 @@ echo "sum = $sum"
 
 
 #Multiplication
-echo "Calculator program - Division Feature"
+echo "Calculator program - Multiplication and Division Feature"
 
 echo "Enter two numbers for multiplication:"
 read x
