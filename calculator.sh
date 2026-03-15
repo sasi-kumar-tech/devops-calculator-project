@@ -14,8 +14,11 @@ sum=$((a+b))
 echo "sum = $sum"
 
 
+
 #Multiplication
 echo "Calculator program - Multiplication and Division Feature"
+
+echo "Multiplication Feature"
 
 echo "Enter two numbers for multiplication:"
 read x
@@ -24,6 +27,7 @@ read y
 mul=$((x*y))
 
 echo "Multiplication = $mul"
+
 
 
 #Subtraction
@@ -35,4 +39,5 @@ read b
 
 sub=$((a-b))
 echo "Result = $sub"
+
 
