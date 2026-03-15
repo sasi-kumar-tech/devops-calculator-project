@@ -1,5 +1,6 @@
 #!bin/bash
 
+#Addition
 echo "simple DevOps Calculator"
 
 echo "Enter first number:"
@@ -12,6 +13,8 @@ sum=$((a+b))
 
 echo "sum = $sum"
 
+
+#Multiplication
 echo "Multiplication Feature"
 
 echo "Enter two numbers for multiplication:"
@@ -21,3 +24,15 @@ read y
 mul=$((x*y))
 
 echo "Multiplication = $mul"
+
+
+#Subtraction
+echo "Subtraction Feature"
+
+echo "Enter two numbers:"
+read a
+read b
+
+sub=$((a-b))
+echo "Result = $sub"
+
