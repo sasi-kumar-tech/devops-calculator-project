@@ -41,3 +41,18 @@ sub=$((a-b))
 echo "Result = $sub"
 
 
+
+#Add new code for Power calculation feature
+echo "Power Calculation Feature"
+
+echo "Enter base number:"
+read base
+
+echo "Enter exponent:"
+read exp
+
+result=$((base**exp))
+
+echo "Result = $result"
+
+
